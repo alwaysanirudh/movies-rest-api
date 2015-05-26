@@ -108,9 +108,6 @@ users = {
 			'type': 'list',
 			'allowed': ['user', 'admin'],
 			'required': True,
-		},
-		'token': {
-			'type': 'string',
 		}
 	}
 }
