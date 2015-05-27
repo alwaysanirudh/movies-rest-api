@@ -39,6 +39,8 @@ movies = {
 	# Only allow admin to write.
 	'allowed_write_roles': ['admin'],
 
+	# DataSource
+	'datasource': {'default_sort': [('_created', -1)]},
 
 	# Schema definition, based on Cerberus grammar. Check the Cerberus project
 	# (https://github.com/nicolaiarocci/cerberus) for details.
